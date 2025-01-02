@@ -5,7 +5,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>How to play?</title>
 </head>
 <body>
     <h1>How to play this game?</h1>

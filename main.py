@@ -124,7 +124,15 @@ while game_is_running:
         score_sith_text = star_wars_font.render(f"Siths's score: {score_sith}", True, black, white)
         score_sith_text_rect = score_sith_text.get_rect()
         score_sith_text_rect.topright = (screen_width, 0)
-        screen.blit(score_jedi_text, score_sith_text_rect)
+        screen.blit(coin, coin_rect)
+
+        screen.blit(jedi, jedi_rect)
+        screen.blit(sith, sith_rect)
+
+        screen.blit(score_jedi_text, score_jedi_text_rect)
+        screen.blit(score_sith_text, score_sith_text_rect)
+
+        screen.blit(time_text, time_text_rect)
         pygame.display.update()
         pygame.time.delay(1000)
         sith_rect.topleft = (0, 60)
